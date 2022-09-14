@@ -61,7 +61,7 @@ a {
   z-index: 1;
 }
 
-.tittle::after {
+.title::after {
   content: '';
   display: block;
   width: 1.5rem;
