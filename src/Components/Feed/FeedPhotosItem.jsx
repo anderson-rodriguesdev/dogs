@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './FeedPhotosItem.module.css';
+import ImageElement from '../Helper/ImageElement';
 
-const FeedPhotosItem = (props) => {
+const FeedPhotosItem = ({ photo, setModalPhoto }) => {
   function handleClick() {
-    props.setModalPhoto(props.photo);
+    setModalPhoto(photo);
   }
   return (
     <li className={styles.photo} onClick={handleClick}>
-      <img src={props.photo.src} alt={props.photo.title} />
-      <span className={styles.visualizacao}>{props.photo.acessos}</span>
+      <ImageElement src={photo.src} alt={photo.title} />
+      <span className={styles.visualizacao}>{photo.acessos}</span>
     </li>
   );
 };
