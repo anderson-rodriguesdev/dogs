@@ -10,7 +10,8 @@ const PhotoCommentsForm = ({ id, setComments }) => {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const { url, options } = COMMENT_POST(id, { comment });
+    const token = window.localStorage.getItem('token');
+    const { url, options } = COMMENT_POST(id, { comment }, token);
     const { response, json } = await request(url, options);
     if (response.ok) {
       setComment('');

@@ -93,7 +93,7 @@ export function COMMENT_POST(id, body, token) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: 'Bearer ' + window.localStorage.getItem('token'),
+        Authorization: 'Bearer ' + token,
       },
       body: JSON.stringify(body),
     },
