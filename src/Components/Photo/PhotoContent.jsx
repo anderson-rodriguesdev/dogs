@@ -11,7 +11,7 @@ const PhotoContent = (props) => {
   const { photo, comments } = props.data;
 
   return (
-    <div className={styles.photo}>
+    <div className={`${styles.photo} ${props.single ? styles.single : ''}`}>
       <div className={styles.img}>
         <ImageElement src={photo.src} alt={photo.title} />
       </div>
@@ -35,7 +35,7 @@ const PhotoContent = (props) => {
           </ul>
         </div>
       </div>
-      <PhotoComments id={photo.id} comments={comments} />
+      <PhotoComments single={props.single} id={photo.id} comments={comments} />
     </div>
   );
 };
