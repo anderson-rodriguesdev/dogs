@@ -1,9 +1,9 @@
-# Projeto Dogs
+# 🐶 Projeto Dogs
 
 [Clique aqui e veja o projeto](https://dogs-andersonrodriguesdev.netlify.app/)
 
 
-## Descrição
+## 📖 Descrição
 
 Dogs é uma rede social para cachorros. Este é o projeto final do curso de React da Origamid.
 
@@ -17,7 +17,7 @@ Dogs é uma rede social para cachorros. Este é o projeto final do curso de Reac
 
 
 
-## Como usar 
+## 🔎 Como usar 
 
 ### Clone esse repositório
 ```bash
