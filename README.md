@@ -2,12 +2,12 @@
 
 [Clique aqui e veja o projeto](https://dogs-andersonrodriguesdev.netlify.app/)
 
----
+
 ## Descrição
 
 Dogs é uma rede social para cachorros. Este é o projeto final do curso de React da Origamid.
 
----
+
 ## 🚀 Tecnologias 
 
 - [Vite](https://vitejs.dev/)
@@ -16,7 +16,7 @@ Dogs é uma rede social para cachorros. Este é o projeto final do curso de Reac
 - [Victory](https://formidable.com/open-source/victory/)
 
 
----
+
 ## Como usar 
 
 ### Clone esse repositório
