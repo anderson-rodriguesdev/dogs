@@ -1,6 +1,6 @@
-# 🐶 Projeto Dogs
+# Projeto Dogs
 
-[Clique aqui e veja o projeto](https://dogs-andersonrodriguesdev.netlify.app/)
+🐶 [Clique aqui e veja o projeto](https://dogs-andersonrodriguesdev.netlify.app/)
 
 
 ## 📖 Descrição
@@ -34,5 +34,5 @@ $ npm install
 $ npm run dev
 ```
 
-# Layout
+# 💻 Layout
 <img src="./print-page.png">
